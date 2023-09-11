@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Coolvetica";
+    src: url("//fonts/coolvectica_rg.otf");
+  }
+
+.navWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2a7a8;
+}
+
+h1{
+    font-family: Coolvetica;
+    letter-spacing: 2px;
+    color: #f88c4d;
+    font-size: 7vh;
+    text-shadow: #e0793e 1px 1px;
+}
+
+.listWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    font-family: "Coolvetica";
+    color: #f8cee6;
+    text-shadow: #e2a8c9 1px 1px;
+}
+
+a{
+    text-decoration: none;
+    color: #fec3e4;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    font-size: 3vh;
+    background-color: #ffa976;
+    width: 100vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 992px) {
+h1{
+    font-size: 5vh;
+}
+}
+
+@media(max-width: 767px){
+    .navBar{
+        font-size: 2vh;
+    }
+}
+
+
+
+
+.hoverMe:hover{
+    color: #fa8bca;
+}

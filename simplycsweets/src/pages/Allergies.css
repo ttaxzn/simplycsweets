@@ -1,0 +1,20 @@
+body{
+    height: auto;
+    min-height: 100vh;
+}
+
+.section1{
+    padding: 2vh;
+    font-family: Coolvetica;
+    color: gray;
+}
+
+
+.gaps{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.gaps2{
+    padding-bottom: 5vh;
+}

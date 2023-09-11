@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Coolvetica';
+  src: url("//fonts/coolvectica_rg.otf");
+}
+
+.test{
+  font-family: "Coolvetica";
+}
+
+html{
+  background: hsla(327, 96%, 91%, 1);
+
+  background: linear-gradient(270deg, hsla(327, 96%, 91%, 1) 0%, hsla(326, 97%, 88%, 1) 21%, hsla(12, 96%, 90%, 1) 49%, hsla(22, 98%, 78%, 1) 74%, hsla(22, 99%, 73%, 1) 100%);
+  
+  background: -moz-linear-gradient(270deg, hsla(327, 96%, 91%, 1) 0%, hsla(326, 97%, 88%, 1) 21%, hsla(12, 96%, 90%, 1) 49%, hsla(22, 98%, 78%, 1) 74%, hsla(22, 99%, 73%, 1) 100%);
+  
+  background: -webkit-linear-gradient(270deg, hsla(327, 96%, 91%, 1) 0%, hsla(326, 97%, 88%, 1) 21%, hsla(12, 96%, 90%, 1) 49%, hsla(22, 98%, 78%, 1) 74%, hsla(22, 99%, 73%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FED3EB", endColorstr="#FEC3E4", GradientType=1 );  height: auto;
+}
