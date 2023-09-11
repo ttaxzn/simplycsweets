@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Coolvetica';
   src: url("//fonts/coolvectica_rg.otf");
+  src: url("//fonts/coolveticarg.woff2") format("woff2");
 }
 
 .test{
